@@ -1,16 +1,15 @@
 import React from 'react';
 
-import Header from '../../components/Header';
-import HeaderList from '../../components/HeaderList';
-import Characters from '../Characters';
+import { Header, HeaderList } from '../../components';
+import { Characters } from '../../containers';
 
 const Home = () => {
   return (
-    <React.Fragment>
+    <>
       <Header />
       <HeaderList />
-      <Characters />
-    </React.Fragment>
+      <Characters isLoading />
+    </>
   );
 };
 
