@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: #ffffff;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.6rem;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
+  font-family: 'Work Sans', sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 16px;
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    width: 80vw;
+  }
+}
+
+.app {
+  // color: #5c5970;
+  color: #061129;
+  font-family: 'Work Sans', sans-serif;
+  min-height: 100vh;
+  width: 100%;
+
+  & strong {
+    font-weight: 600;
+  }
+}

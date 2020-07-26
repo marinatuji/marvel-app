@@ -4,10 +4,12 @@ import Search from '../../components/Search';
 
 import { ReactComponent as LogoSvg } from '../../assets/images/logo.svg';
 
+import './Header.scss';
+
 const Header = () => {
   return (
-    <header className="header">
-      <div className="container">
+    <header className="container">
+      <div className="container__header">
         <LogoSvg
           src="../../assets/images/logo@2x.png"
           alt="logo marvel buscar heroes"
