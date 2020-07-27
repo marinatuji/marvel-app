@@ -19,8 +19,8 @@ const Header = ({ onChangeToSearch }) => {
         <div className="header-title">
           <h1>Explore o Universo</h1>
           <p>
-            Mergulhe no domínio deslumbrantee todos os personagens clássicos que
-            você ama - e aqueles que você descobrirá em breve!
+            Mergulhe no domínio deslumbrante de todos os personagens clássicos
+            que você ama - e aqueles que você descobrirá em breve!
           </p>
         </div>
 

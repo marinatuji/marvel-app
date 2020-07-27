@@ -11,11 +11,15 @@ const Home = () => {
   const [data, setData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [searchTerm, setSearchTerm] = useState('');
+  const [isLoading, setIsLoading] = useState(true);
+  const [favorites, setFavorites] = useState([]);
+  const [isActive, setIsActive] = useState(true);
 
   const handleGetCharacters = async () => {
     const response = await getCharacters();
     setData(response);
     setFilteredData(response);
+    setIsLoading(!isLoading);
     console.log('data', data);
     return data;
   };
@@ -26,6 +30,7 @@ const Home = () => {
 
   const handleSearch = (value) => {
     setSearchTerm(value);
+    setIsActive(true);
   };
 
   useEffect(() => {
@@ -34,16 +39,41 @@ const Home = () => {
     );
 
     setFilteredData(resultSearch);
-  }, [searchTerm]);
+  }, [searchTerm, data]);
+
+  const sortByName = () => {
+    setIsActive(!isActive);
+  };
+
+  useEffect(() => {
+    if (isActive) {
+      setFilteredData(
+        filteredData.sort((characterA, characterB) =>
+          characterA.name >= characterB.name ? 1 : -1
+        )
+      );
+    } else {
+      setFilteredData(
+        filteredData.sort((characterA, characterB) =>
+          characterA.name >= characterB.name ? -1 : 1
+        )
+      );
+    }
+  }, [isActive]);
 
   return (
     <div className="container">
       <Header onChangeToSearch={handleSearch} />
-      <HeaderList data={data} />
+      <HeaderList
+        data={filteredData}
+        favoritesList={favorites}
+        sortByName={sortByName}
+      />
       <Characters
         data={filteredData}
-        searchTerm={searchTerm}
-        filteredData={filteredData}
+        isLoading={isLoading}
+        setFavorites={setFavorites}
+        favoritesList={favorites}
       />
     </div>
   );

@@ -1,3 +1,5 @@
+@import '../../assets/styles/_variables';
+
 .loading {
   background: transparent;
   height: 71px;
@@ -14,17 +16,17 @@
   &__text {
     animation-delay: 100ms;
     animation: text-glow 1400ms infinite ease-in;
-    color: #1db954;
-    font-family: 'Raleway', sans-serif;
+    color: $red;
+    font-family: $font-family-work-sans;
     font-size: 12px;
     font-weight: bold;
     text-align: center;
-    text-shadow: 0 0 0 #1ed760;
+    text-shadow: 0 0 0 $red;
   }
 
   span {
     animation: soundBar 1400ms infinite ease-in-out;
-    background: #1db954;
+    background: $red;
     border-radius: 2px;
     bottom: 0;
     display: block;
@@ -74,19 +76,19 @@
 
   @keyframes soundBar {
     0% {
-      background: #1db954;
+      background: $red;
       height: 2px;
     }
     20% {
-      background: #1ed760;
+      background: $red-light;
       height: 70px;
     }
     40% {
-      background: #1db954;
+      background: $red;
       height: 2px;
     }
     60% {
-      background: #1db954;
+      background: $red;
       height: 2px;
     }
   }
@@ -94,15 +96,15 @@
 
 @keyframes text-glow {
   0% {
-    color: #1db954;
-    text-shadow: 0 0 0 #1db954;
+    color: $red;
+    text-shadow: 0 0 0 $red;
   }
   50% {
-    color: #1ed760;
-    text-shadow: 0 0 5px #1ed760;
+    color: $red-light;
+    text-shadow: 0 0 5px $red-light;
   }
   100% {
-    color: #1db954;
-    text-shadow: 0 0 0 #1db954;
+    color: $red;
+    text-shadow: 0 0 0 $red;
   }
 }

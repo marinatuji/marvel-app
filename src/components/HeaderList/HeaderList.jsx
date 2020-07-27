@@ -6,17 +6,16 @@ import { ReactComponent as HeartFilledIcon } from '../../assets/images/heart-fil
 
 import './HeaderList.scss';
 
-const HeaderList = ({ searchResult = 20 }) => {
+const HeaderList = ({ data = [], sortByName }) => {
   return (
     <section className="header-list">
-      <p className="result-paragraph">{`Encontrados ${searchResult} resultados`}</p>
+      <p className="result-paragraph">{`Encontrados ${data.length} resultados`}</p>
 
       <div className="sort-label">
         <HeroIcon className="sort-label__icon" />
         <p>Ordenar por nome - A/Z</p>
+        <button className="toggle-button" onClick={() => sortByName()}></button>
       </div>
-
-      <button className="toggle-button"></button>
 
       <Link to="/favorites" className="favorites-page__link">
         <HeartFilledIcon className="favorites-page__icon" />

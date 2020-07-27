@@ -1,10 +1,12 @@
+@import '../../assets/styles/_variables';
+
 .header-list {
   padding: 0 1rem;
-  margin-bottom: 1rem;
   font-size: 0.9rem;
+  font-family: $font-family-work-sans;
 
   .result-paragraph {
-    color: #b9b9b9;
+    color: $secondary-text;
     line-height: 2.2rem;
     margin-left: 1rem;
   }
@@ -12,10 +14,19 @@
   .sort-label {
     display: flex;
     align-items: center;
+    color: rgba($red, 0.7);
+    font-weight: 500;
 
     &__icon {
       margin: 0 0.5rem 0 1rem;
     }
+  }
+
+  .toggle-button {
+    padding: 1rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+    cursor: pointer;
   }
 
   .favorites-page {
@@ -23,11 +34,26 @@
       display: flex;
       align-items: center;
       text-decoration: none;
-      color: #061129;
+      color: rgba($red, 0.7);
+      font-weight: 500;
+      height: 30px;
     }
 
     &__icon {
       margin: 0 0.5rem 0 1rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .header-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+
+    .result-paragraph {
+      width: calc(100% / 3);
+      margin: 0;
     }
   }
 }
