@@ -12,14 +12,14 @@ const HeaderList = ({ searchResult = 20 }) => {
       <p className="result-paragraph">{`Encontrados ${searchResult} resultados`}</p>
 
       <div className="sort-label">
-        <HeroIcon className="icon" />
+        <HeroIcon className="sort-label__icon" />
         <p>Ordenar por nome - A/Z</p>
       </div>
 
       <button className="toggle-button"></button>
 
-      <Link className="favorites-page" to="/favorites">
-        <HeartFilledIcon className="icon" />
+      <Link to="/favorites" className="favorites-page__link">
+        <HeartFilledIcon className="favorites-page__icon" />
         <p>Somente favoritos</p>
       </Link>
     </section>

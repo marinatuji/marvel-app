@@ -6,11 +6,12 @@ import { ReactComponent as LogoSvg } from '../../assets/images/logo.svg';
 
 import './Header.scss';
 
-const Header = () => {
+const Header = ({ onChangeToSearch }) => {
   return (
-    <header className="container">
-      <div className="container__header">
+    <div className="container">
+      <header className="header">
         <LogoSvg
+          className="header-logo"
           src="../../assets/images/logo@2x.png"
           alt="logo marvel buscar heroes"
         />
@@ -24,10 +25,10 @@ const Header = () => {
         </div>
 
         <div className="header-search">
-          <Search />
+          <Search onChangeToSearch={onChangeToSearch} />
         </div>
-      </div>
-    </header>
+      </header>
+    </div>
   );
 };
 

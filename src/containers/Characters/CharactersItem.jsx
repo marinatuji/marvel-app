@@ -6,21 +6,22 @@ const CharactersItem = ({ id, icon, name, url, image }) => (
   <div
     className="characters__item"
     data-testid="character"
-    style={{ backgroundImage: `url(${icon.url})` }}
+    // style={{ backgroundImage: `url(${icon.url})` }}
   >
-    <Link to={`${url}/${id}`} className="characters__item__link">
+    {/* <Link to={`${url}/${id}`} className="characters__item__link">
       <span className="characters__item__title">{name}</span>
 
       <div>{image}</div>
-    </Link>
+    </Link> */}
+    <div>{name}</div>
   </div>
 );
 
-CharactersItem.propTypes = {
-  icon: PropTypes.object.isRequired,
-  id: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  url: PropTypes.string.isRequired,
-};
+// CharactersItem.propTypes = {
+//   icon: PropTypes.object.isRequired,
+//   id: PropTypes.string.isRequired,
+//   name: PropTypes.string.isRequired,
+//   url: PropTypes.string.isRequired,
+// };
 
 export default CharactersItem;

@@ -2,13 +2,22 @@ import React from 'react';
 
 import { ReactComponent as IconLupa } from '../../assets/images/lupa.svg';
 
-const Search = () => {
+import './Search.scss';
+
+const Search = ({ onChangeToSearch }) => {
+  const myOnChange = (e) => {
+    onChangeToSearch(e.target.value);
+  };
+
   return (
     <div className="search">
-      <i className="search-icon" aria-hidden="true">
-        <IconLupa />
-      </i>
-      <input className="search-input" placeholder="Procure por heróis..." />
+      <IconLupa className="search-icon" />
+      <input
+        type="text"
+        className="search-input"
+        placeholder="Procure por heróis..."
+        onChange={myOnChange}
+      />
     </div>
   );
 };
