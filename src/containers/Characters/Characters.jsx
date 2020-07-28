@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import CharactersItem from './CharactersItem';
@@ -14,7 +14,6 @@ const Characters = ({ data, isLoading, setFavorites, favoritesList }) => {
       setFavorites([...favoritesList, id]);
       console.log(favoritesList);
     }
-    // return <p>Selecione até 5 favoritos</p>;
   };
 
   return (

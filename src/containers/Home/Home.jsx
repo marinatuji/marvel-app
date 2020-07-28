@@ -26,6 +26,7 @@ const Home = () => {
 
   useEffect(() => {
     handleGetCharacters();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleSearch = (value) => {
@@ -59,6 +60,7 @@ const Home = () => {
         )
       );
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isActive]);
 
   return (
