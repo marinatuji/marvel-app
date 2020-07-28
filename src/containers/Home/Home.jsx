@@ -21,7 +21,6 @@ const Home = () => {
     setData(response);
     setFilteredData(response);
     setIsLoading(!isLoading);
-    console.log('data', data);
     return data;
   };
 

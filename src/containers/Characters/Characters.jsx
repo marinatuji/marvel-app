@@ -12,7 +12,6 @@ const Characters = ({ data, isLoading, setFavorites, favoritesList }) => {
       setFavorites(favoritesList.filter((selectedId) => selectedId !== id));
     } else if (favoritesList.length < 5) {
       setFavorites([...favoritesList, id]);
-      console.log(favoritesList);
     }
   };
 
@@ -20,7 +19,7 @@ const Characters = ({ data, isLoading, setFavorites, favoritesList }) => {
     <div className="characters" data-testid="characters">
       <div className="container">
         {isLoading ? (
-          <Loading text="Carregando..." />
+          <Loading text="Carregando..." className="loading" />
         ) : (
           <div className="characters__list">
             {data.length &&
@@ -32,7 +31,6 @@ const Characters = ({ data, isLoading, setFavorites, favoritesList }) => {
                   name={character.name}
                   thumbnailPath={character.thumbnail.path}
                   imgExtension={character.thumbnail.extension}
-                  uri={character.resourceURI}
                   setFavorites={setFavorites}
                   favoritesList={favoritesList}
                   handleFavorites={handleFavorites}

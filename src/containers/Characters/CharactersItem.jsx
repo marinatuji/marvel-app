@@ -13,7 +13,6 @@ const CharactersItem = ({
   thumbnailPath,
   imgExtension,
   name,
-  uri,
   favoritesList,
   handleFavorites,
 }) => {
@@ -50,9 +49,7 @@ const CharactersItem = ({
 
 CharactersItem.propTypes = {
   thumbnailPath: PropTypes.string.isRequired,
-  // id: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  uri: PropTypes.string.isRequired,
 };
 
 export default CharactersItem;

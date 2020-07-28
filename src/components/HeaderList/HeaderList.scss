@@ -47,6 +47,9 @@
       margin-right: 0.3rem;
       align-self: center;
     }
+    &:disabled {
+      color: $secondary-text;
+    }
   }
 }
 
