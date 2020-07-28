@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c0c662d7b45ca2caa1188bb77a44adb",
+    "revision": "3d5df59dd3f9b3ae53d845604dda0246",
     "url": "/marvel-app/index.html"
   },
   {
-    "revision": "d2b32256d4d2e090ca00",
-    "url": "/marvel-app/static/css/main.60878f8f.chunk.css"
+    "revision": "1f482c464d5d7a89795c",
+    "url": "/marvel-app/static/css/main.841cb235.chunk.css"
   },
   {
-    "revision": "6d6e04835912e794efc1",
-    "url": "/marvel-app/static/js/2.305d10e3.chunk.js"
+    "revision": "1a0b8fe348f56424679f",
+    "url": "/marvel-app/static/js/2.f4ef71c2.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/marvel-app/static/js/2.305d10e3.chunk.js.LICENSE.txt"
+    "url": "/marvel-app/static/js/2.f4ef71c2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d2b32256d4d2e090ca00",
-    "url": "/marvel-app/static/js/main.a43df4fa.chunk.js"
+    "revision": "1f482c464d5d7a89795c",
+    "url": "/marvel-app/static/js/main.16049d6e.chunk.js"
   },
   {
-    "revision": "5c20dd92125b53193b65",
-    "url": "/marvel-app/static/js/runtime-main.cb1a6a69.js"
+    "revision": "88f5ea685a2e30f3494c",
+    "url": "/marvel-app/static/js/runtime-main.fc27ddac.js"
   },
   {
     "revision": "22049e153648e058ea206112e24e6c25",
