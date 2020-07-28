@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/marvell-app/static/css/main.60878f8f.chunk.css",
-    "main.js": "/marvell-app/static/js/main.bbe4c5fc.chunk.js",
-    "main.js.map": "/marvell-app/static/js/main.bbe4c5fc.chunk.js.map",
-    "runtime-main.js": "/marvell-app/static/js/runtime-main.940a7c6c.js",
-    "runtime-main.js.map": "/marvell-app/static/js/runtime-main.940a7c6c.js.map",
-    "static/js/2.daf89e14.chunk.js": "/marvell-app/static/js/2.daf89e14.chunk.js",
-    "static/js/2.daf89e14.chunk.js.map": "/marvell-app/static/js/2.daf89e14.chunk.js.map",
-    "index.html": "/marvell-app/index.html",
-    "precache-manifest.52460e9df77192e8758d559ccc7fc221.js": "/marvell-app/precache-manifest.52460e9df77192e8758d559ccc7fc221.js",
-    "service-worker.js": "/marvell-app/service-worker.js",
-    "static/css/main.60878f8f.chunk.css.map": "/marvell-app/static/css/main.60878f8f.chunk.css.map",
-    "static/js/2.daf89e14.chunk.js.LICENSE.txt": "/marvell-app/static/js/2.daf89e14.chunk.js.LICENSE.txt",
-    "static/media/heart-filled.22049e15.svg": "/marvell-app/static/media/heart-filled.22049e15.svg",
-    "static/media/heart.61bd6eb8.svg": "/marvell-app/static/media/heart.61bd6eb8.svg",
-    "static/media/hero.529229ac.svg": "/marvell-app/static/media/hero.529229ac.svg",
-    "static/media/logo.55c7f3ac.svg": "/marvell-app/static/media/logo.55c7f3ac.svg",
-    "static/media/lupa.aeefa637.svg": "/marvell-app/static/media/lupa.aeefa637.svg"
+    "main.css": "/marvel-app/static/css/main.60878f8f.chunk.css",
+    "main.js": "/marvel-app/static/js/main.a43df4fa.chunk.js",
+    "main.js.map": "/marvel-app/static/js/main.a43df4fa.chunk.js.map",
+    "runtime-main.js": "/marvel-app/static/js/runtime-main.cb1a6a69.js",
+    "runtime-main.js.map": "/marvel-app/static/js/runtime-main.cb1a6a69.js.map",
+    "static/js/2.305d10e3.chunk.js": "/marvel-app/static/js/2.305d10e3.chunk.js",
+    "static/js/2.305d10e3.chunk.js.map": "/marvel-app/static/js/2.305d10e3.chunk.js.map",
+    "index.html": "/marvel-app/index.html",
+    "precache-manifest.19d92a7f17845298a84c60cdace31db7.js": "/marvel-app/precache-manifest.19d92a7f17845298a84c60cdace31db7.js",
+    "service-worker.js": "/marvel-app/service-worker.js",
+    "static/css/main.60878f8f.chunk.css.map": "/marvel-app/static/css/main.60878f8f.chunk.css.map",
+    "static/js/2.305d10e3.chunk.js.LICENSE.txt": "/marvel-app/static/js/2.305d10e3.chunk.js.LICENSE.txt",
+    "static/media/heart-filled.22049e15.svg": "/marvel-app/static/media/heart-filled.22049e15.svg",
+    "static/media/heart.61bd6eb8.svg": "/marvel-app/static/media/heart.61bd6eb8.svg",
+    "static/media/hero.529229ac.svg": "/marvel-app/static/media/hero.529229ac.svg",
+    "static/media/logo.55c7f3ac.svg": "/marvel-app/static/media/logo.55c7f3ac.svg",
+    "static/media/lupa.aeefa637.svg": "/marvel-app/static/media/lupa.aeefa637.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.940a7c6c.js",
-    "static/js/2.daf89e14.chunk.js",
+    "static/js/runtime-main.cb1a6a69.js",
+    "static/js/2.305d10e3.chunk.js",
     "static/css/main.60878f8f.chunk.css",
-    "static/js/main.bbe4c5fc.chunk.js"
+    "static/js/main.a43df4fa.chunk.js"
   ]
 }
