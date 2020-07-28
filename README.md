@@ -1,3 +1,20 @@
+## Deploy da aplicação
+
+Você pode consultar a aplicação na [URL pública](https://5f1f8fcbe7863001b54f55d0--wonderful-easley-c51cad.netlify.app/)
+
+## Instalar as dependencias
+
+Você pode instalar todas as dependências necessárias utilizando o Yarn ou NPM:
+
+- **Yarn** ▶️ `yarn add lodash node-sass prop-types react-icons react-ink react-redux react-router-dom redux redux-persist`
+- **NPM** ▶️ `npm install --save lodash node-sass prop-types react-icons react-ink react-redux react-router-dom redux redux-persist`
+
+## Requisitos:
+
+- **[Node v10.16.3](https://nodejs.org/en/)** - ou superior, instalado em seu computador.
+- **[npm v6.14.4](https://www.npmjs.com/get-npm)** - ou superior, instalado em seu computador.
+- **[Create React App](https://github.com/facebook/create-react-app)**
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
