@@ -5,10 +5,6 @@ import { ReactComponent as IconLupa } from '../../assets/images/lupa.svg';
 import './Search.scss';
 
 const Search = ({ onChangeToSearch }) => {
-  const myOnChange = (e) => {
-    onChangeToSearch(e.target.value);
-  };
-
   return (
     <div className="search">
       <IconLupa className="search-icon" />
@@ -16,7 +12,7 @@ const Search = ({ onChangeToSearch }) => {
         type="text"
         className="search-input"
         placeholder="Procure por heróis..."
-        onChange={myOnChange}
+        onChange={(e) => onChangeToSearch(e.target.value)}
       />
     </div>
   );

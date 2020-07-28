@@ -14,6 +14,7 @@ const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [favorites, setFavorites] = useState([]);
   const [isActive, setIsActive] = useState(true);
+  const [onlyFavorites, setOnlyFavorites] = useState(false);
 
   const handleGetCharacters = async () => {
     const response = await getCharacters();
@@ -32,6 +33,7 @@ const Home = () => {
   const handleSearch = (value) => {
     setSearchTerm(value);
     setIsActive(true);
+    setOnlyFavorites(false);
   };
 
   useEffect(() => {
@@ -63,6 +65,21 @@ const Home = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isActive]);
 
+  const handleOnlyFavorites = () => {
+    setOnlyFavorites(!onlyFavorites);
+  };
+
+  useEffect(() => {
+    if (onlyFavorites) {
+      setFilteredData(
+        filteredData.filter((character) => favorites.includes(character.id))
+      );
+    } else {
+      setFilteredData(data);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [onlyFavorites]);
+
   return (
     <div className="container">
       <Header onChangeToSearch={handleSearch} />
@@ -70,6 +87,7 @@ const Home = () => {
         data={filteredData}
         favoritesList={favorites}
         sortByName={sortByName}
+        handleOnlyFavorites={handleOnlyFavorites}
       />
       <Characters
         data={filteredData}

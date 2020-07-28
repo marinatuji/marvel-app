@@ -40,9 +40,9 @@ const CharactersItem = ({
             {favoritesList.includes(id) ? <HeartFilled /> : <Heart />}
           </button>
         </div>
-        <spam className="item-infos__favorites__message">
+        <span className="item-infos__favorites__message">
           Selecione até 5 favoritos!
-        </spam>
+        </span>
       </section>
     </div>
   );
