@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/github.io/marvell-app/static/css/main.60878f8f.chunk.css",
-    "main.js": "/github.io/marvell-app/static/js/main.bc55eaf7.chunk.js",
-    "main.js.map": "/github.io/marvell-app/static/js/main.bc55eaf7.chunk.js.map",
-    "runtime-main.js": "/github.io/marvell-app/static/js/runtime-main.ab9c1f53.js",
-    "runtime-main.js.map": "/github.io/marvell-app/static/js/runtime-main.ab9c1f53.js.map",
-    "static/js/2.daf89e14.chunk.js": "/github.io/marvell-app/static/js/2.daf89e14.chunk.js",
-    "static/js/2.daf89e14.chunk.js.map": "/github.io/marvell-app/static/js/2.daf89e14.chunk.js.map",
-    "index.html": "/github.io/marvell-app/index.html",
-    "precache-manifest.bc821d2274c658d8893c0f4b703a7305.js": "/github.io/marvell-app/precache-manifest.bc821d2274c658d8893c0f4b703a7305.js",
-    "service-worker.js": "/github.io/marvell-app/service-worker.js",
-    "static/css/main.60878f8f.chunk.css.map": "/github.io/marvell-app/static/css/main.60878f8f.chunk.css.map",
-    "static/js/2.daf89e14.chunk.js.LICENSE.txt": "/github.io/marvell-app/static/js/2.daf89e14.chunk.js.LICENSE.txt",
-    "static/media/heart-filled.22049e15.svg": "/github.io/marvell-app/static/media/heart-filled.22049e15.svg",
-    "static/media/heart.61bd6eb8.svg": "/github.io/marvell-app/static/media/heart.61bd6eb8.svg",
-    "static/media/hero.529229ac.svg": "/github.io/marvell-app/static/media/hero.529229ac.svg",
-    "static/media/logo.55c7f3ac.svg": "/github.io/marvell-app/static/media/logo.55c7f3ac.svg",
-    "static/media/lupa.aeefa637.svg": "/github.io/marvell-app/static/media/lupa.aeefa637.svg"
+    "main.css": "/marvell-app/static/css/main.60878f8f.chunk.css",
+    "main.js": "/marvell-app/static/js/main.bbe4c5fc.chunk.js",
+    "main.js.map": "/marvell-app/static/js/main.bbe4c5fc.chunk.js.map",
+    "runtime-main.js": "/marvell-app/static/js/runtime-main.940a7c6c.js",
+    "runtime-main.js.map": "/marvell-app/static/js/runtime-main.940a7c6c.js.map",
+    "static/js/2.daf89e14.chunk.js": "/marvell-app/static/js/2.daf89e14.chunk.js",
+    "static/js/2.daf89e14.chunk.js.map": "/marvell-app/static/js/2.daf89e14.chunk.js.map",
+    "index.html": "/marvell-app/index.html",
+    "precache-manifest.52460e9df77192e8758d559ccc7fc221.js": "/marvell-app/precache-manifest.52460e9df77192e8758d559ccc7fc221.js",
+    "service-worker.js": "/marvell-app/service-worker.js",
+    "static/css/main.60878f8f.chunk.css.map": "/marvell-app/static/css/main.60878f8f.chunk.css.map",
+    "static/js/2.daf89e14.chunk.js.LICENSE.txt": "/marvell-app/static/js/2.daf89e14.chunk.js.LICENSE.txt",
+    "static/media/heart-filled.22049e15.svg": "/marvell-app/static/media/heart-filled.22049e15.svg",
+    "static/media/heart.61bd6eb8.svg": "/marvell-app/static/media/heart.61bd6eb8.svg",
+    "static/media/hero.529229ac.svg": "/marvell-app/static/media/hero.529229ac.svg",
+    "static/media/logo.55c7f3ac.svg": "/marvell-app/static/media/logo.55c7f3ac.svg",
+    "static/media/lupa.aeefa637.svg": "/marvell-app/static/media/lupa.aeefa637.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ab9c1f53.js",
+    "static/js/runtime-main.940a7c6c.js",
     "static/js/2.daf89e14.chunk.js",
     "static/css/main.60878f8f.chunk.css",
-    "static/js/main.bc55eaf7.chunk.js"
+    "static/js/main.bbe4c5fc.chunk.js"
   ]
 }
